@@ -1,8 +1,0 @@
-1. Integers	: int
-2. Floating Points	: float
-3. Strings	: str
-4. Boolean	: bool
-5. Lists	: list
-6. Tuples	: tup
-7. Sets		: set
-8. Dictionaries : dict	
