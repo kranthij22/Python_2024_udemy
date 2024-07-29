@@ -1,6 +1,4 @@
 # While Loops in Python.
-from html5lib._ihatexml import letter
-
 # While loops will continue to execute a block of code "while" some condition remains True.
 # Syntax of a while loop
 # while some_boolean_condition:
@@ -31,7 +29,6 @@ for k in x:
     pass
 print('End of the script')
 
-
 # Ex for Continue
 
 mystring = 'Kranthi'
@@ -40,3 +37,21 @@ for kk in mystring:
         continue
     print(kk)
 
+# List Comprehensions in python
+
+mylist = []
+
+for x in [2, 4, 6]:
+    for y in [1, 10, 100]:
+        mylist.append(x * y)
+print(mylist)
+
+# can be done using List Comprehension in python:
+
+mylist = [x * y for x in [2, 4, 6] for y in [1, 10, 100]]
+print(mylist)
+
+# We can also use if else in ListComprehension:
+
+results = [x if x % 2 == 0 else 'ODD' for x in range(0, 11)]
+print(results)

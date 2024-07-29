@@ -1,32 +1,26 @@
 # Write a program to find the simple interest
 
-p = 1000
-r = 5
-t = 3
+p = int(input('Enter the Principal amount:'))
+r = float(input('Enter the rate of interest:'))
+t = float(input('Enter the no of years:'))
 
-simple_interest = p * (5 / 100) * 3
+simple_interest = (p * r * t) / 100
 print(simple_interest)
 
 # Write a program to find the factorial of a number . Example: factorial of 6 is 6*5*4*3*2*1 which is 720.
 
-n = 6
+n = int(input('Enter the number:'))
 f = 1
 i = 1
 while i <= n:
     f = f * i
-    i = i+1
-    print('value of f:', f)
-    print('value of i:', i)
+    i = i + 1
+print('value of f:', f)
+
 # Write a program to iterate over each character in a string and print it. For example: string = hello , output = h,e,l,l,o
 
 
 my_string = 'Hello'
 for kk in my_string:
     print(kk)
-
-print(f'output =', my_string[0:])
-print(f'output = ', my_string[0], my_string[1], my_string[2], my_string[3], my_string[4])
-
-
-
 
